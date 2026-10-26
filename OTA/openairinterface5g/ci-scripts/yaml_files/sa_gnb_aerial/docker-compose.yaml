@@ -1,0 +1,78 @@
+# SPDX-License-Identifier: MIT
+
+services:
+  nv-cubb:
+    container_name: nv-cubb
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities:
+                - gpu
+    network_mode: host
+    shm_size: 4096m
+    privileged: true
+    stdin_open: true
+    tty: true
+    volumes:
+      - /home/serae/COMPASS/OTA/aerial-cuda-accelerated-ran:/opt/nvidia/cuBB/ #################
+      - /lib/modules:/lib/modules
+      - /dev/hugepages:/dev/hugepages
+      - /usr/src:/usr/src
+      - /var/log/aerial:/var/log/aerial
+      - ../../../cmake_targets/share:/opt/cuBB/share
+      # change v1: to use current yaml
+      - ./cuphycontroller_P5G_BNTL_GH.yaml:/opt/nvidia/cuBB/cuPHY-CP/cuphycontroller/config/cuphycontroller_P5G_BNTL_GH.yaml # change v1: add yaml
+      - ./l2_adapter_config_P5G_BNTL_GH.yaml:/opt/nvidia/cuBB/cuPHY-CP/cuphycontroller/config/l2_adapter_config_P5G_BNTL_GH.yaml # change v1: add l2 adapter config
+    userns_mode: host
+    ipc: "shareable"
+    image: ${REGISTRY-nvcr.io/nvidia/aerial/}${L1_IMG:-aerial-cuda-accelerated-ran}:26-2-cubb_serae
+    environment:
+      - cuBB_SDK=/opt/nvidia/cuBB
+      - AERIAL_LOG_PATH=/var/log/aerial
+      - AERIAL_DL_DELAY_US=0
+    command: bash -c "sudo rm -rf /tmp/phy.log && /opt/nvidia/cuBB/run_l1.sh P5G_BNTL_GH"
+    #command: bash -c "sudo rm -rf /tmp/phy.log && /opt/nvidia/cuBB/run_l1.sh"  #Default is P5G_WNC_GH
+    #command: bash -c "sudo rm -rf /tmp/phy.log && /opt/nvidia/cuBB/run_l1.sh P5G_FXN_GH"  #For FXN
+    healthcheck:
+      test: ["CMD-SHELL",'grep -q "L1 is ready!" /tmp/phy.log && echo 0 || echo 1']
+      interval: 20s
+      timeout: 5s
+      retries: 5
+  oai-gnb-aerial:
+    cpuset: "13-17"
+    image: ${REGISTRY-oaisoftwarealliance/}${GNB_IMG:-oai-gnb-aerial}:ATB1.2_serae
+    depends_on:
+      nv-cubb:
+        condition: service_started
+    cap_drop:
+      - ALL
+    cap_add:
+      - SYS_NICE
+      - IPC_LOCK
+    ipc: "container:nv-cubb"
+    environment:
+      USE_ADDITIONAL_OPTIONS: --log_config.global_log_options level,nocolor,utc_time
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities:
+                - gpu
+    network_mode: host
+    shm_size: 4096m
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./gnb-vnf.sa.band78.273prb.aerial_bntl.conf:/opt/oai-gnb/etc/gnb.conf
+      # - ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-vnf.sa.band78.273prb.aerial.conf:/opt/oai-gnb/etc/gnb.conf
+    container_name: oai-gnb-aerial
+    healthcheck:
+      test: /bin/bash -c "ps aux | grep -v grep | grep -c softmodem"
+      interval: 10s
+      timeout: 5s
+      retries: 5

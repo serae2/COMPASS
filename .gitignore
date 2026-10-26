@@ -1,0 +1,5 @@
+# Local graph data
+graph/
+
+# Build artifacts
+OTA/aerial-cuda-accelerated-ran/build.aarch64/

@@ -1,0 +1,2 @@
+FROM oai-gnb-aerial:ATB1.2
+LABEL dev.owner="serae"

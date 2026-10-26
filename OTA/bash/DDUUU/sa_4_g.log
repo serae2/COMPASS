@@ -1,0 +1,349 @@
+nv-cubb         | 11:41:19.812941 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=513.4 pusch_id=0 tb_crc_errors=0 now_ns=1789645279812941035
+oai-gnb-aerial  | [11:41:20.050509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  537. 5 with tda 0 k2 4 (ULSCH at  537. 9) scheduled 1 last_dl 0
+
+
+nv-cubb         | 11:41:19.813962 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=513.9 pusch_id=1 phase=4 now_ns=1789645279813962742
+oai-gnb-aerial  | [11:41:20.050517] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 537. 5 rx_result= 536.19 rnti=7ff8 crc=ok
+
+
+oai-gnb-aerial  | [11:41:20.053009] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  537.10 with tda 0 k2 4 (ULSCH at  537.14) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.813983 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=513.9 pusch_id=1 phase=4 status=0 now_ns=1789645279813983926 host_submit_us=21.216
+
+
+
+nv-cubb         | 11:41:19.814014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=513.12 map=361 slot_advance=4 now_ns=1789645279814014807 target_t0_ns=1789645279816000000
+oai-gnb-aerial  | [11:41:20.053016] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 537.10 rx_result= 537. 4 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.055508] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  537.15 with tda 0 k2 4 (ULSCH at  537.19) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.814015 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=513.12 map=361 cell=0 ulbuf_st1=1789645250475894612 slot_advance=4 now_ns=1789645279814015415
+nv-cubb         | 11:41:19.815014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=513.14 map=362 slot_advance=4 now_ns=1789645279815014082 target_t0_ns=1789645279817000000
+nv-cubb         | 11:41:19.815014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=513.14 map=362 cell=0 ulbuf_st1=1789645250476360377 slot_advance=4 now_ns=1789645279815014722
+nv-cubb         | 11:41:19.815451 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=513.9 pusch_id=1 tb_crc_errors=0 now_ns=1789645279815451879
+
+
+oai-gnb-aerial  | [11:41:20.055516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 537.15 rx_result= 537. 9 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.816468 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=513.14 pusch_id=2 phase=4 now_ns=1789645279816468499
+
+oai-gnb-aerial  | [11:41:20.058010] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  538. 0 with tda 0 k2 4 (ULSCH at  538. 4) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.816488 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=513.14 pusch_id=2 phase=4 status=0 now_ns=1789645279816488819 host_submit_us=20.352
+nv-cubb         | 11:41:19.817514 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=513.19 map=363 slot_advance=4 now_ns=1789645279817514719 target_t0_ns=1789645279819500000
+oai-gnb-aerial  | [11:41:20.058019] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 538. 0 rx_result= 537.14 rnti=7ff8 crc=ok target=513.14 pusch_id=2 tb_crc_errors=0 now_ns=1789645279817950052
+
+oai-gnb-aerial  | [11:41:20.060509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  538. 5 with tda 0 k2 4 (ULSCH at  538. 9) scheduled 1 last_dl 0
+
+nv-cubb         | 11:41:19.818970 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=513.19 pusch_id=0 phase=4 now_ns=1789645279818970768
+nv-cubb         | 11:41:19.818991 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=513.19 pusch_id=0 phase=4 status=0 now_ns=1789645279818991376 host_submit_us=20.64
+nv-cubb         | 11:41:19.819014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=514.2 map=364 slot_advance=4 now_ns=1789645279819014193 target_t0_ns=1789645279821000000
+oai-gnb-aerial  | [11:41:20.060516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 538. 5 rx_result= 537.19 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.819014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=514.2 map=364 cell=0 ulbuf_st1=1789645250476760734 slot_advance=4 now_ns=1789645279819014833
+
+
+
+oai-gnb-aerial  | [11:41:20.063009] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  538.10 with tda 0 k2 4 (ULSCH at  538.14) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.820012 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=514.4 map=365 slot_advance=4 now_ns=1789645279820012892 target_t0_ns=1789645279822000000
+
+
+
+
+oai-gnb-aerial  | [11:41:20.063017] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 538.10 rx_result= 538. 4 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.820013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=514.4 map=365 cell=0 ulbuf_st1=1789645250476832959 slot_advance=4 now_ns=1789645279820013468
+oai-gnb-aerial  | [11:41:20.065509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  538.15 with tda 0 k2 4 (ULSCH at  538.19) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.065517] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 538.15 rx_result= 538. 9 rnti=7ff8 crc=ok
+
+
+
+
+nv-cubb         | 11:41:19.820465 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=513.19 pusch_id=0 tb_crc_errors=0 now_ns=1789645279820465281
+oai-gnb-aerial  | [11:41:20.068008] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  539. 0 with tda 0 k2 4 (ULSCH at  539. 4) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.821465 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=514.4 pusch_id=1 phase=4 now_ns=1789645279821465549
+
+
+nv-cubb         | 11:41:19.821487 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=514.4 pusch_id=1 phase=4 status=0 now_ns=1789645279821487213 host_submit_us=21.696
+oai-gnb-aerial  | [11:41:20.068016] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 539. 0 rx_result= 538.14 rnti=7ff8 crc=ok
+
+oai-gnb-aerial  | [11:41:20.070509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  539. 5 with tda 0 k2 4 (ULSCH at  539. 9) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.070516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 539. 5 rx_result= 538.19 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.822512 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=514.9 map=366 slot_advance=4 now_ns=1789645279822512633 target_t0_ns=1789645279824500000
+oai-gnb-aerial  | [11:41:20.073009] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  539.10 with tda 0 k2 4 (ULSCH at  539.14) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.073016] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 539.10 rx_result= 539. 4 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.822513 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=514.9 map=366 cell=0 ulbuf_st1=1789645250477120706 slot_advance=4 now_ns=1789645279822513273
+oai-gnb-aerial  | [11:41:20.075509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  539.15 with tda 0 k2 4 (ULSCH at  539.19) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.075516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 539.15 rx_result= 539. 9 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.822946 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=514.4 pusch_id=1 tb_crc_errors=0 now_ns=1789645279822946814
+nv-cubb         | 11:41:19.823971 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=514.9 pusch_id=2 phase=4 now_ns=1789645279823971401
+oai-gnb-aerial  | [11:41:20.078010] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  540. 0 with tda 0 k2 4 (ULSCH at  540. 4) scheduled 1 last_dl 0
+
+
+nv-cubb         | 11:41:19.823992 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=514.9 pusch_id=2 phase=4 status=0 now_ns=1789645279823992297 host_submit_us=20.928
+
+
+
+
+oai-gnb-aerial  | [11:41:20.078019] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 540. 0 rx_result= 539.14 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.824013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=514.12 map=367 cell=0 ulbuf_st1=1789645250477195779 slot_advance=4 now_ns=1789645279824013290
+nv-cubb         | 11:41:19.825014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=514.14 map=368 slot_advance=4 now_ns=1789645279825014837 target_t0_ns=1789645279827000000
+nv-cubb         | 11:41:19.825015 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=514.14 map=368 cell=0 ulbuf_st1=1789645250477492518 slot_advance=4 now_ns=1789645279825015541
+oai-gnb-aerial  | [11:41:20.080508] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  540. 5 with tda 0 k2 4 (ULSCH at  540. 9) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.080516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 540. 5 rx_result= 539.19 rnti=7ff8 crc=ok
+
+
+nv-cubb         | 11:41:19.825453 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=514.9 pusch_id=2 tb_crc_errors=0 now_ns=1789645279825453786
+nv-cubb         | 11:41:19.826474 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=514.14 pusch_id=0 phase=4 now_ns=1789645279826474726
+
+nv-cubb         | 11:41:19.826498 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=514.14 pusch_id=0 phase=4 status=0 now_ns=1789645279826498662 host_submit_us=23.936
+oai-gnb-aerial  | [11:41:20.085508] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  540.15 with tda 0 k2 4 (ULSCH at  540.19) scheduled 1 last_dl 0
+
+nv-cubb         | 11:41:19.827514 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=514.19 map=369 slot_advance=4 now_ns=1789645279827514386 target_t0_ns=1789645279829500000
+nv-cubb         | 11:41:19.827946 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=514.14 pusch_id=0 tb_crc_errors=0 now_ns=1789645279827946071
+nv-cubb         | 11:41:19.828965 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=514.19 pusch_id=1 phase=4 now_ns=1789645279828964994
+oai-gnb-aerial  | [11:41:20.085516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 540.15 rx_result= 540. 9 rnti=7ff8 crc=ok
+
+nv-cubb         | 11:41:19.828986 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=514.19 pusch_id=1 phase=4 status=0 now_ns=1789645279828986947 host_submit_us=21.953
+
+
+nv-cubb         | 11:41:19.829013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=515.2 map=370 slot_advance=4 now_ns=1789645279829013635 target_t0_ns=1789645279831000000
+oai-gnb-aerial  | [11:41:20.088016] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 541. 0 rx_result= 540.14 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.829014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=515.2 map=370 cell=0 ulbuf_st1=1789645250475791827 slot_advance=4 now_ns=1789645279829014339
+
+oai-gnb-aerial  | [11:41:20.090508] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  541. 5 with tda 0 k2 4 (ULSCH at  541. 9) scheduled 1 last_dl 0
+
+oai-gnb-aerial  | [11:41:20.090516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 541. 5 rx_result= 540.19 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.093008] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  541.10 with tda 0 k2 4 (ULSCH at  541.14) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.830014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=515.4 map=371 cell=0 ulbuf_st1=1789645250475894612 slot_advance=4 now_ns=1789645279830014702
+
+oai-gnb-aerial  | [11:41:20.093017] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 541.10 rx_result= 541. 4 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.830470 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=514.19 pusch_id=1 tb_crc_errors=0 now_ns=1789645279830470516
+nv-cubb         | 11:41:19.831467 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=515.4 pusch_id=2 phase=4 now_ns=1789645279831467391
+
+oai-gnb-aerial  | [11:41:20.095508] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  541.15 with tda 0 k2 4 (ULSCH at  541.19) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.831487 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=515.4 pusch_id=2 phase=4 status=0 now_ns=1789645279831487583 host_submit_us=20.224
+oai-gnb-aerial  | [11:41:20.095516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 541.15 rx_result= 541. 9 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.098010] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  542. 0 with tda 0 k2 4 (ULSCH at  542. 4) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.832514 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=515.9 map=372 slot_advance=4 now_ns=1789645279832514347 target_t0_ns=1789645279834500000
+nv-cubb         | 11:41:19.832515 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=515.9 map=372 cell=0 ulbuf_st1=1789645250476360377 slot_advance=4 now_ns=1789645279832515051
+nv-cubb         | 11:41:19.832949 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=515.4 pusch_id=2 tb_crc_errors=0 now_ns=1789645279832949808
+oai-gnb-aerial  | [11:41:20.098019] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 542. 0 rx_result= 541.14 rnti=7ff8 crc=ok
+
+nv-cubb         | 11:41:19.833966 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=515.9 pusch_id=0 phase=4 now_ns=1789645279833966684
+nv-cubb         | 11:41:19.833987 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=515.9 pusch_id=0 phase=4 status=0 now_ns=1789645279833987452 host_submit_us=20.8
+nv-cubb         | 11:41:19.834013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=515.12 map=373 slot_advance=4 now_ns=1789645279834013180 target_t0_ns=1789645279836000000
+oai-gnb-aerial  | [11:41:20.100508] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  542. 5 with tda 0 k2 4 (ULSCH at  542. 9) scheduled 1 last_dl 0
+
+oai-gnb-aerial  | [11:41:20.100516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 542. 5 rx_result= 541.19 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.834013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=515.12 map=373 cell=0 ulbuf_st1=1789645250476453466 slot_advance=4 now_ns=1789645279834013756
+nv-cubb         | 11:41:19.835014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=515.14 map=374 slot_advance=4 now_ns=1789645279835014824 target_t0_ns=1789645279837000000
+nv-cubb         | 11:41:19.835015 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=515.14 map=374 cell=0 ulbuf_st1=1789645250476760734 slot_advance=4 now_ns=1789645279835015528
+
+nv-cubb         | 11:41:19.835458 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=515.9 pusch_id=0 tb_crc_errors=0 now_ns=1789645279835458253
+nv-cubb         | 11:41:19.836465 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=515.14 pusch_id=1 phase=4 now_ns=1789645279836465208
+nv-cubb         | 11:41:19.836485 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=515.14 pusch_id=1 phase=4 status=0 now_ns=1789645279836485880 host_submit_us=20.704
+nv-cubb         | 11:41:19.837513 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=515.19 map=375 slot_advance=4 now_ns=1789645279837513156 target_t0_ns=1789645279839500000
+nv-cubb         | 11:41:19.837947 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=515.14 pusch_id=1 tb_crc_errors=0 now_ns=1789645279837947049
+nv-cubb         | 11:41:19.838965 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=515.19 pusch_id=2 phase=4 now_ns=1789645279838965941
+nv-cubb         | 11:41:19.838986 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=515.19 pusch_id=2 phase=4 status=0 now_ns=1789645279838986357 host_submit_us=20.448
+nv-cubb         | 11:41:19.839014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=516.2 map=376 slot_advance=4 now_ns=1789645279839014517 target_t0_ns=1789645279841000000
+nv-cubb         | 11:41:19.839015 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=516.2 map=376 cell=0 ulbuf_st1=1789645250477120706 slot_advance=4 now_ns=1789645279839015189
+
+nv-cubb         | 11:41:19.839511 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=516.3 map=377 slot_advance=4 now_ns=1789645279839511483 target_t0_ns=1789645279841500000
+oai-gnb-aerial  | [11:41:20.103009] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  542.10 with tda 0 k2 4 (ULSCH at  542.14) scheduled 1 last_dl 0
+
+
+nv-cubb         | 11:41:19.839512 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=516.3 map=377 cell=0 ulbuf_st1=1789645250477195779 slot_advance=4 now_ns=1789645279839512091
+oai-gnb-aerial  | [11:41:20.103018] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 542.10 rx_result= 542. 4 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.840014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=516.4 map=378 slot_advance=4 now_ns=1789645279840014529 target_t0_ns=1789645279842000000
+nv-cubb         | 11:41:19.840014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=516.4 map=378 cell=0 ulbuf_st1=1789645250477492518 slot_advance=4 now_ns=1789645279840015009
+nv-cubb         | 11:41:19.840460 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=515.19 pusch_id=2 tb_crc_errors=0 now_ns=1789645279840460262
+nv-cubb         | 11:41:19.841473 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=516.4 pusch_id=0 phase=4 now_ns=1789645279841473330
+nv-cubb         | 11:41:19.841493 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=516.4 pusch_id=0 phase=4 status=0 now_ns=1789645279841493842 host_submit_us=20.544
+nv-cubb         | 11:41:19.842514 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=516.9 map=379 slot_advance=4 now_ns=1789645279842514205 target_t0_ns=1789645279844500000
+nv-cubb         | 11:41:19.842514 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=516.9 map=379 cell=0 ulbuf_st1=1789645250477573607 slot_advance=4 now_ns=1789645279842515005
+nv-cubb         | 11:41:19.842946 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=516.4 pusch_id=0 tb_crc_errors=0 now_ns=1789645279842946722
+nv-cubb         | 11:41:19.843966 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=516.9 pusch_id=1 phase=4 now_ns=1789645279843966414
+
+nv-cubb         | 11:41:19.843988 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=516.9 pusch_id=1 phase=4 status=0 now_ns=1789645279843988494 host_submit_us=22.112
+oai-gnb-aerial  | [11:41:20.105516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 542.15 rx_result= 542. 9 rnti=7ff8 crc=ok
+
+nv-cubb         | 11:41:19.844012 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=516.12 map=380 slot_advance=4 now_ns=1789645279844012431 target_t0_ns=1789645279846000000
+nv-cubb         | 11:41:19.844013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=516.12 map=380 cell=0 ulbuf_st1=1789645250475791827 slot_advance=4 now_ns=1789645279844013103
+nv-cubb         | 11:41:19.845012 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=516.14 map=381 slot_advance=4 now_ns=1789645279845012762 target_t0_ns=1789645279847000000
+nv-cubb         | 11:41:19.845013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=516.14 map=381 cell=0 ulbuf_st1=1789645250475894612 slot_advance=4 now_ns=1789645279845013402
+nv-cubb         | 11:41:19.845458 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=516.9 pusch_id=1 tb_crc_errors=0 now_ns=1789645279845458175
+nv-cubb         | 11:41:19.846464 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=516.14 pusch_id=2 phase=4 now_ns=1789645279846464459
+nv-cubb         | 11:41:19.846487 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=516.14 pusch_id=2 phase=4 status=0 now_ns=1789645279846487115 host_submit_us=22.688
+nv-cubb         | 11:41:19.847514 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=516.19 map=382 slot_advance=4 now_ns=1789645279847514359 target_t0_ns=1789645279849500000
+nv-cubb         | 11:41:19.847939 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=516.14 pusch_id=2 tb_crc_errors=0 now_ns=1789645279847939484
+nv-cubb         | 11:41:19.848973 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=516.19 pusch_id=0 phase=4 now_ns=1789645279848973287
+nv-cubb         | 11:41:19.848994 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=516.19 pusch_id=0 phase=4 status=0 now_ns=1789645279848994152 host_submit_us=20.897
+
+
+oai-gnb-aerial  | [11:41:20.108009] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  543. 0 with tda 0 k2 4 (ULSCH at  543. 4) scheduled 1 last_dl 0
+
+
+nv-cubb         | 11:41:19.849012 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=517.2 map=383 slot_advance=4 now_ns=1789645279849012328 target_t0_ns=1789645279851000000
+oai-gnb-aerial  | [11:41:20.108017] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 543. 0 rx_result= 542.14 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.849013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=517.2 map=383 cell=0 ulbuf_st1=1789645250476453466 slot_advance=4 now_ns=1789645279849013064
+nv-cubb         | 11:41:19.850011 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=517.4 map=384 slot_advance=4 now_ns=1789645279850011763 target_t0_ns=1789645279852000000
+nv-cubb         | 11:41:19.850012 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=517.4 map=384 cell=0 ulbuf_st1=1789645250476760734 slot_advance=4 now_ns=1789645279850012467
+nv-cubb         | 11:41:19.850461 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=516.19 pusch_id=0 tb_crc_errors=0 now_ns=1789645279850461016
+nv-cubb         | 11:41:19.851472 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=517.4 pusch_id=1 phase=4 now_ns=1789645279851472068
+nv-cubb         | 11:41:19.851493 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=517.4 pusch_id=1 phase=4 status=0 now_ns=1789645279851494020 host_submit_us=21.984
+nv-cubb         | 11:41:19.852513 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=517.9 map=385 slot_advance=4 now_ns=1789645279852513200 target_t0_ns=1789645279854500000
+nv-cubb         | 11:41:19.852513 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=517.9 map=385 cell=0 ulbuf_st1=1789645250476832959 slot_advance=4 now_ns=1789645279852514032
+nv-cubb         | 11:41:19.852946 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=517.4 pusch_id=1 tb_crc_errors=0 now_ns=1789645279852946389
+nv-cubb         | 11:41:19.853975 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=517.9 pusch_id=2 phase=4 now_ns=1789645279853975105
+nv-cubb         | 11:41:19.853996 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=517.9 pusch_id=2 phase=4 status=0 now_ns=1789645279853996193 host_submit_us=21.12
+nv-cubb         | 11:41:19.854015 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=517.12 map=386 slot_advance=4 now_ns=1789645279854015265 target_t0_ns=1789645279856000000
+
+oai-gnb-aerial  | [11:41:20.110508] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  543. 5 with tda 0 k2 4 (ULSCH at  543. 9) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.110517] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 543. 5 rx_result= 542.19 rnti=7ff8 crc=ok
+
+nv-cubb         | 11:41:19.854015 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=517.12 map=386 cell=0 ulbuf_st1=1789645250477120706 slot_advance=4 now_ns=1789645279854015873
+nv-cubb         | 11:41:19.855012 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=517.14 map=387 slot_advance=4 now_ns=1789645279855012748 target_t0_ns=1789645279857000000
+nv-cubb         | 11:41:19.855013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=517.14 map=387 cell=0 ulbuf_st1=1789645250477195779 slot_advance=4 now_ns=1789645279855013292
+nv-cubb         | 11:41:19.855458 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=517.9 pusch_id=2 tb_crc_errors=0 now_ns=1789645279855458386
+nv-cubb         | 11:41:19.856473 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=517.14 pusch_id=0 phase=4 now_ns=1789645279856473181
+nv-cubb         | 11:41:19.856494 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=517.14 pusch_id=0 phase=4 status=0 now_ns=1789645279856494461 host_submit_us=21.312
+nv-cubb         | 11:41:19.857513 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=517.19 map=388 slot_advance=4 now_ns=1789645279857512969 target_t0_ns=1789645279859500000
+nv-cubb         | 11:41:19.857945 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=517.14 pusch_id=0 tb_crc_errors=0 now_ns=1789645279857945710
+nv-cubb         | 11:41:19.858970 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=517.19 pusch_id=1 phase=4 now_ns=1789645279858970874
+nv-cubb         | 11:41:19.858993 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=517.19 pusch_id=1 phase=4 status=0 now_ns=1789645279858993562 host_submit_us=22.72
+nv-cubb         | 11:41:19.859012 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=518.2 map=389 slot_advance=4 now_ns=1789645279859012666 target_t0_ns=1789645279861000000
+nv-cubb         | 11:41:19.859013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=518.2 map=389 cell=0 ulbuf_st1=1789645250477573607 slot_advance=4 now_ns=1789645279859013402
+nv-cubb         | 11:41:19.860014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=518.4 map=390 slot_advance=4 now_ns=1789645279860014534 target_t0_ns=1789645279862000000
+
+
+oai-gnb-aerial  | [11:41:20.113008] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  543.10 with tda 0 k2 4 (ULSCH at  543.14) scheduled 1 last_dl 0
+
+
+nv-cubb         | 11:41:19.860015 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=518.4 map=390 cell=0 ulbuf_st1=1789645250475791827 slot_advance=4 now_ns=1789645279860015110
+
+
+oai-gnb-aerial  | [11:41:20.113016] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 543.10 rx_result= 543. 4 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.860463 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=517.19 pusch_id=1 tb_crc_errors=0 now_ns=1789645279860463115
+
+
+nv-cubb         | 11:41:19.861467 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=518.4 pusch_id=2 phase=4 now_ns=1789645279861467702
+nv-cubb         | 11:41:19.862514 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=518.9 map=391 slot_advance=4 now_ns=1789645279862514082 target_t0_ns=1789645279864500000
+nv-cubb         | 11:41:19.862514 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=518.9 map=391 cell=0 ulbuf_st1=1789645250475894612 slot_advance=4 now_ns=1789645279862514786
+nv-cubb         | 11:41:19.862945 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=518.4 pusch_id=2 tb_crc_errors=0 now_ns=1789645279862945351
+
+
+nv-cubb         | 11:41:19.863974 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=518.9 pusch_id=0 phase=4 now_ns=1789645279863974035
+nv-cubb         | 11:41:19.863995 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=518.9 pusch_id=0 phase=4 status=0 now_ns=1789645279863995571 host_submit_us=21.568
+oai-gnb-aerial  | [11:41:20.115508] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  543.15 with tda 0 k2 4 (ULSCH at  543.19) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.864014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=518.12 map=392 slot_advance=4 now_ns=1789645279864014579 target_t0_ns=1789645279866000000
+oai-gnb-aerial  | [11:41:20.115517] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 543.15 rx_result= 543. 9 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.864015 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=518.12 map=392 cell=0 ulbuf_st1=1789645250476360377 slot_advance=4 now_ns=1789645279864015187
+nv-cubb         | 11:41:19.865013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=518.14 map=393 slot_advance=4 now_ns=1789645279865013887 target_t0_ns=1789645279867000000
+nv-cubb         | 11:41:19.865014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=518.14 map=393 cell=0 ulbuf_st1=1789645250476453466 slot_advance=4 now_ns=1789645279865014527
+nv-cubb         | 11:41:19.865457 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=518.9 pusch_id=0 tb_crc_errors=0 now_ns=1789645279865457316
+nv-cubb         | 11:41:19.866470 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=518.14 pusch_id=1 phase=4 now_ns=1789645279866470256
+nv-cubb         | 11:41:19.866492 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=518.14 pusch_id=1 phase=4 status=0 now_ns=1789645279866492592 host_submit_us=22.336
+oai-gnb-aerial  | [11:41:20.118011] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  544. 0 with tda 0 k2 4 (ULSCH at  544. 4) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.118021] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 544. 0 rx_result= 543.14 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.120509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  544. 5 with tda 0 k2 4 (ULSCH at  544. 9) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.120517] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 544. 5 rx_result= 543.19 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.123009] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  544.10 with tda 0 k2 4 (ULSCH at  544.14) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.123016] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 544.10 rx_result= 544. 4 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.867513 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=518.19 map=394 slot_advance=4 now_ns=1789645279867513500 target_t0_ns=1789645279869500000
+nv-cubb         | 11:41:19.867947 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=518.14 pusch_id=1 tb_crc_errors=0 now_ns=1789645279867947040
+Gracefully Stopping... press Ctrl+C again to force
+nv-cubb         | 11:41:19.868971 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=518.19 pusch_id=2 phase=4 now_ns=1789645279868971564
+nv-cubb         | 11:41:19.868992 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=518.19 pusch_id=2 phase=4 status=0 now_ns=1789645279868992748 host_submit_us=21.216
+nv-cubb         | 11:41:19.869012 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=519.2 map=395 slot_advance=4 now_ns=1789645279869012717 target_t0_ns=1789645279871000000
+nv-cubb         | 11:41:19.869013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=519.2 map=395 cell=0 ulbuf_st1=1789645250476832959 slot_advance=4 now_ns=1789645279869013357
+nv-cubb         | 11:41:19.870013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=519.4 map=396 slot_advance=4 now_ns=1789645279870012952 target_t0_ns=1789645279872000000
+oai-gnb-aerial  | [11:41:20.125509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  544.15 with tda 0 k2 4 (ULSCH at  544.19) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.870013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=519.4 map=396 cell=0 ulbuf_st1=1789645250477120706 slot_advance=4 now_ns=1789645279870013592
+oai-gnb-aerial  | [11:41:20.125516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 544.15 rx_result= 544. 9 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.870451 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=518.19 pusch_id=2 tb_crc_errors=0 now_ns=1789645279870451357
+nv-cubb         | 11:41:19.871470 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=519.4 pusch_id=0 phase=4 now_ns=1789645279871470921
+oai-gnb-aerial  | [11:41:20.128009] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  545. 0 with tda 0 k2 4 (ULSCH at  545. 4) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.871493 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=519.4 pusch_id=0 phase=4 status=0 now_ns=1789645279871493353 host_submit_us=22.464
+nv-cubb         | 11:41:19.871512 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=519.7 map=397 slot_advance=4 now_ns=1789645279871512585 target_t0_ns=1789645279873500000
+nv-cubb         | 11:41:19.871513 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=519.7 map=397 cell=0 ulbuf_st1=1789645250477195779 slot_advance=4 now_ns=1789645279871513449
+nv-cubb         | 11:41:19.872513 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=519.9 map=398 slot_advance=4 now_ns=1789645279872513749 target_t0_ns=1789645279874500000
+oai-gnb-aerial  | [11:41:20.128017] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 545. 0 rx_result= 544.14 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.130509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  545. 5 with tda 0 k2 4 (ULSCH at  545. 9) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.872514 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=519.9 map=398 cell=0 ulbuf_st1=1789645250477492518 slot_advance=4 now_ns=1789645279872514453
+oai-gnb-aerial  | [11:41:20.130517] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 545. 5 rx_result= 544.19 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.133009] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  545.10 with tda 0 k2 4 (ULSCH at  545.14) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.133017] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 545.10 rx_result= 545. 4 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.872954 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=519.4 pusch_id=0 tb_crc_errors=0 now_ns=1789645279872954490
+oai-gnb-aerial  | [11:41:20.135509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  545.15 with tda 0 k2 4 (ULSCH at  545.19) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.873966 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=519.9 pusch_id=1 phase=4 now_ns=1789645279873965925
+nv-cubb         | 11:41:19.873986 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=519.9 pusch_id=1 phase=4 status=0 now_ns=1789645279873986534 host_submit_us=20.641
+oai-gnb-aerial  | [11:41:20.135516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 545.15 rx_result= 545. 9 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.138009] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  546. 0 with tda 0 k2 4 (ULSCH at  546. 4) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.874012 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=519.12 map=399 slot_advance=4 now_ns=1789645279874012870 target_t0_ns=1789645279876000000
+ Container oai-gnb-aerial  Stopping
+oai-gnb-aerial  | [11:41:20.138019] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 546. 0 rx_result= 545.14 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.874013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=519.12 map=399 cell=0 ulbuf_st1=1789645250477573607 slot_advance=4 now_ns=1789645279874013574
+nv-cubb         | 11:41:19.875012 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=519.14 map=400 slot_advance=4 now_ns=1789645279875012881 target_t0_ns=1789645279877000000
+nv-cubb         | 11:41:19.875013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=519.14 map=400 cell=0 ulbuf_st1=1789645250475791827 slot_advance=4 now_ns=1789645279875013521
+oai-gnb-aerial  | [11:41:20.140509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  546. 5 with tda 0 k2 4 (ULSCH at  546. 9) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.875447 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=519.9 pusch_id=1 tb_crc_errors=0 now_ns=1789645279875447990
+oai-gnb-aerial  | [11:41:20.140516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 546. 5 rx_result= 545.19 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.876463 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=519.14 pusch_id=2 phase=4 now_ns=1789645279876462946
+oai-gnb-aerial  | [11:41:20.143008] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  546.10 with tda 0 k2 4 (ULSCH at  546.14) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.143016] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 546.10 rx_result= 546. 4 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.145509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  546.15 with tda 0 k2 4 (ULSCH at  546.19) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.145517] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 546.15 rx_result= 546. 9 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.876483 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=519.14 pusch_id=2 phase=4 status=0 now_ns=1789645279876483394 host_submit_us=20.48
+oai-gnb-aerial  | [11:41:20.148008] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  547. 0 with tda 0 k2 4 (ULSCH at  547. 4) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.148017] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 547. 0 rx_result= 546.14 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.150509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  547. 5 with tda 0 k2 4 (ULSCH at  547. 9) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.150516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 547. 5 rx_result= 546.19 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.153009] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  547.10 with tda 0 k2 4 (ULSCH at  547.14) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.153017] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 547.10 rx_result= 547. 4 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.155509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  547.15 with tda 0 k2 4 (ULSCH at  547.19) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.877515 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=519.19 map=401 slot_advance=4 now_ns=1789645279877515246 target_t0_ns=1789645279879500000
+nv-cubb         | 11:41:19.877934 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=519.14 pusch_id=2 tb_crc_errors=0 now_ns=1789645279877934707
+oai-gnb-aerial  | [11:41:20.155517] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 547.15 rx_result= 547. 9 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.158010] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  548. 0 with tda 0 k2 4 (ULSCH at  548. 4) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.878967 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=519.19 pusch_id=0 phase=4 now_ns=1789645279878967519
+oai-gnb-aerial  | [11:41:20.158019] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 548. 0 rx_result= 547.14 rnti=7ff8 crc=ok
+oai-gnb-aerial  | [11:41:20.160509] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  548. 5 with tda 0 k2 4 (ULSCH at  548. 9) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.160516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 548. 5 rx_result= 547.19 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.878989 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=519.19 pusch_id=0 phase=4 status=0 now_ns=1789645279878989375 host_submit_us=21.888
+nv-cubb         | 11:41:19.879015 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=520.2 map=402 slot_advance=4 now_ns=1789645279879015199 target_t0_ns=1789645279881000000
+oai-gnb-aerial  | [11:41:20.163009] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  548.10 with tda 0 k2 4 (ULSCH at  548.14) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.163018] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 548.10 rx_result= 548. 4 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.879015 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=520.2 map=402 cell=0 ulbuf_st1=1789645250476360377 slot_advance=4 now_ns=1789645279879015871
+oai-gnb-aerial  | [11:41:20.165508] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  548.15 with tda 0 k2 4 (ULSCH at  548.19) scheduled 1 last_dl 0
+oai-gnb-aerial  | [11:41:20.165516] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 548.15 rx_result= 548. 9 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.879513 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=520.3 map=403 slot_advance=4 now_ns=1789645279879513637 target_t0_ns=1789645279881500000
+nv-cubb         | 11:41:19.879514 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=520.3 map=403 cell=0 ulbuf_st1=1789645250476453466 slot_advance=4 now_ns=1789645279879514341
+nv-cubb         | 11:41:19.880011 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=520.4 map=404 slot_advance=4 now_ns=1789645279880011883 target_t0_ns=1789645279882000000
+nv-cubb         | 11:41:19.880012 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=520.4 map=404 cell=0 ulbuf_st1=1789645250476760734 slot_advance=4 now_ns=1789645279880012619
+nv-cubb         | 11:41:19.880449 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=519.19 pusch_id=0 tb_crc_errors=0 now_ns=1789645279880449680
+nv-cubb         | 11:41:19.881464 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=520.4 pusch_id=1 phase=4 now_ns=1789645279881464219
+nv-cubb         | 11:41:19.881484 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=520.4 pusch_id=1 phase=4 status=0 now_ns=1789645279881484859 host_submit_us=20.672
+nv-cubb         | 11:41:19.882515 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=520.9 map=405 slot_advance=4 now_ns=1789645279882515271 target_t0_ns=1789645279884500000
+nv-cubb         | 11:41:19.882516 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=520.9 map=405 cell=0 ulbuf_st1=1789645250476832959 slot_advance=4 now_ns=1789645279882516103
+nv-cubb         | 11:41:19.882949 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=520.4 pusch_id=1 tb_crc_errors=0 now_ns=1789645279882949644
+nv-cubb         | 11:41:19.883971 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=520.9 pusch_id=2 phase=4 now_ns=1789645279883970968
+nv-cubb         | 11:41:19.883991 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=520.9 pusch_id=2 phase=4 status=0 now_ns=1789645279883991384 host_submit_us=20.448
+nv-cubb         | 11:41:19.884013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=520.12 map=406 slot_advance=4 now_ns=1789645279884013624 target_t0_ns=1789645279886000000
+nv-cubb         | 11:41:19.884014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=520.12 map=406 cell=0 ulbuf_st1=1789645250477120706 slot_advance=4 now_ns=1789645279884014456
+nv-cubb         | 11:41:19.885013 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=520.14 map=407 slot_advance=4 now_ns=1789645279885013348 target_t0_ns=1789645279887000000
+nv-cubb         | 11:41:19.885014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=520.14 map=407 cell=0 ulbuf_st1=1789645250477195779 slot_advance=4 now_ns=1789645279885014116
+nv-cubb         | 11:41:19.885466 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=520.9 pusch_id=2 tb_crc_errors=0 now_ns=1789645279885466089
+nv-cubb         | 11:41:19.886467 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=520.14 pusch_id=0 phase=4 now_ns=1789645279886467381
+nv-cubb         | 11:41:19.886489 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=520.14 pusch_id=0 phase=4 status=0 now_ns=1789645279886489173 host_submit_us=21.824
+nv-cubb         | 11:41:19.887513 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=520.19 map=408 slot_advance=4 now_ns=1789645279887513889 target_t0_ns=1789645279889500000
+nv-cubb         | 11:41:19.887951 ERR UlPhyDriver04 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=520.14 pusch_id=0 tb_crc_errors=0 now_ns=1789645279887951558
+nv-cubb         | 11:41:19.888965 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=520.19 pusch_id=1 phase=4 now_ns=1789645279888965905
+nv-cubb         | 11:41:19.888986 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=520.19 pusch_id=1 phase=4 status=0 now_ns=1789645279888986258 host_submit_us=20.385
+nv-cubb         | 11:41:19.889014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=521.2 map=409 slot_advance=4 now_ns=1789645279889014002 target_t0_ns=1789645279891000000
+nv-cubb         | 11:41:19.889014 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=521.2 map=409 cell=0 ulbuf_st1=1789645250477573607 slot_advance=4 now_ns=1789645279889014738
+nv-cubb         | 11:41:19.890015 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=521.4 map=410 slot_advance=4 now_ns=1789645279890015198 target_t0_ns=1789645279892000000
+nv-cubb         | 11:41:19.890015 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=521.4 map=410 cell=0 ulbuf_st1=1789645250475791827 slot_advance=4 now_ns=1789645279890015966
+nv-cubb         | 11:41:19.890456 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=520.19 pusch_id=1 tb_crc_errors=0 now_ns=1789645279890456483
+oai-gnb-aerial  | [11:41:20.168009] [NR_MAC] E [ULTRACE][grant] run pf_ul() at  549. 0 with tda 0 k2 4 (ULSCH at  549. 4) scheduled 1 last_dl 0
+nv-cubb         | 11:41:19.891469 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=521.4 pusch_id=2 phase=4 now_ns=1789645279891469710
+oai-gnb-aerial  | [11:41:20.168016] [NR_MAC] E [ULTRACE][OAI_CONSUME] invoke= 549. 0 rx_result= 548.14 rnti=7ff8 crc=ok
+nv-cubb         | 11:41:19.891491 ERR UlPhyDriver05 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_END] target=521.4 pusch_id=2 phase=4 status=0 now_ns=1789645279891491694 host_submit_us=22.016
+nv-cubb         | 11:41:19.892513 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][MAP_ACQUIRE] target=521.9 map=411 slot_advance=4 now_ns=1789645279892513562 target_t0_ns=1789645279894500000
+nv-cubb         | 11:41:19.892514 ERR msg_processing 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.API] [ULTRACE][ULBUF_ACQUIRE] target=521.9 map=411 cell=0 ulbuf_st1=1789645250475894612 slot_advance=4 now_ns=1789645279892514458
+nv-cubb         | 11:41:19.892936 ERR UlPhyDriver05 0 [AERIAL_CUPHYDRV_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_CALLBACK] target=521.4 pusch_id=2 tb_crc_errors=0 now_ns=1789645279892936895
+nv-cubb         | 11:41:19.893972 ERR UlPhyDriver04 0 [AERIAL_CUPHY_API_EVENT] [DRV.PUSCH] [ULTRACE][PUSCH_RUN_SUBMIT_BEGIN] target=521.9 pusch_id=0 phase=4 now_ns=1789645279893972779

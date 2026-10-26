@@ -1,0 +1,8 @@
+services:
+  nv-cubb:
+    command:
+      - bash
+      - -lc
+      - |
+        echo "[manual] nv-cubb container is alive. Run cuphycontroller manually."
+        sleep infinity

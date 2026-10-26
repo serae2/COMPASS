@@ -1,0 +1,89 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+---
+aerial_sdk_version: 26-2-cubb
+# WAR for limitation that all cells need to be configured at initial
+wait_all_cell_config: 1
+
+# Transport settings for nvIPC
+transport:
+  # Unique identifier for this transport instance (must be sequential starting from 0)
+  - transport_id: 0
+    # Array of phy_cell_id mapped to this transport instance
+    phy_cells: [0, 1, 2, 3]
+    # Transport type: only "shm" for shared memory is supported
+    type: shm
+    # Shared memory transport configuration
+    shm_config:
+      # Prefix used for shared memory object names (e.g., /dev/shm/${prefix}_*)
+      prefix: cumac
+      # CUDA device ID for GPU memory operations. The cpu_data and cpu_large memory pools will be registered to host pinned memory when cuda_device_id >= 0
+      cuda_device_id: 0
+      # Memory pool size configuration for different buffer types (per-cell pool length)
+      mempool_size:
+        # CPU message buffer pool: used for small control messages
+        cpu_msg:
+          # Size of each buffer in bytes
+          buf_size: 8192
+          # Number of buffers in the pool
+          pool_len: 100
+        # CPU data buffer pool: used for larger data payloads on CPU
+        cpu_data:
+          # Size of each buffer in bytes
+          buf_size: 576000
+          # Number of buffers in the pool
+          pool_len: 50
+        # CUDA/GPU data buffer pool: used for GPU-accessible data buffers
+        cuda_data:
+          # Size of each buffer in bytes
+          buf_size: 307200
+          # Number of buffers in the pool (0 means pool is disabled)
+          pool_len: 0
+
+  # Unique identifier for this transport instance (must be sequential starting from 0)
+  - transport_id: 1
+    # Array of phy_cell_id mapped to this transport instance
+    phy_cells: [4, 5, 6, 7]
+    # Transport type: only "shm" for shared memory is supported
+    type: shm
+    # Shared memory transport configuration
+    shm_config:
+      # Prefix used for shared memory object names (e.g., /dev/shm/${prefix}_*)
+      prefix: cumac1
+      # CUDA device ID for GPU memory operations. The cpu_data and cpu_large memory pools will be registered to host pinned memory when cuda_device_id >= 0
+      cuda_device_id: 0
+      # Memory pool size configuration for different buffer types (per-cell pool length)
+      mempool_size:
+        # CPU message buffer pool: used for small control messages
+        cpu_msg:
+          # Size of each buffer in bytes
+          buf_size: 8192
+          # Number of buffers in the pool
+          pool_len: 100
+        # CPU data buffer pool: used for larger data payloads on CPU
+        cpu_data:
+          # Size of each buffer in bytes
+          buf_size: 576000
+          # Number of buffers in the pool
+          pool_len: 50
+        # CUDA/GPU data buffer pool: used for GPU-accessible data buffers
+        cuda_data:
+          # Size of each buffer in bytes
+          buf_size: 307200
+          # Number of buffers in the pool (0 means pool is disabled)
+          pool_len: 0
+
+...
